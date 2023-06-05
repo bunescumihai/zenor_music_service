@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<script>
+    function playM(){
+        let e = document.createElement('audio');
+        e.src = "lost.mp3";
+        e.load();
+
+        document.getElementById('texxt').innerHTML = e.duration;
+    }
+</script>
+<p id="texxt">
+
+</p>
+<button onclick="playM()">
+
+</button>
+</body>
+</html>
